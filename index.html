@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Experiment 3 Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Experiment Dashboard</h1>
+
+<button onclick="show('exp1')">Product Card</button>
+<button onclick="show('exp2')">Library</button>
+<button onclick="show('exp3')">Person</button>
+
+<!-- EXP 1 -->
+<div id="exp1" class="section">
+  <h2>Product Card</h2>
+  <div id="product"></div>
+</div>
+
+<!-- EXP 2 -->
+<div id="exp2" class="section">
+  <h2>Library</h2>
+  <input id="bookInput" placeholder="Enter book">
+  <button onclick="addBook()">Add</button>
+  <div id="books"></div>
+</div>
+
+<!-- EXP 3 -->
+<div id="exp3" class="section">
+  <h2>Person Hierarchy</h2>
+  <div id="persons"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
